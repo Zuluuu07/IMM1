@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Conversión de Texto a Audio")
-image = Image.open('descarga.jpg')
+image = Image.open('ARTHUR MORGAN 4K.jpg')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
@@ -20,7 +20,7 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write('Un conejo elegante con abrigo y un candil rojo iluminaba los caminos para que los viajeros no se perdieran; un día un zorro le aconsejó guardarlo solo para él, pero al hacerlo un niño quedó atrapado en el bosque; entonces comprendió que la luz, como la bondad, solo brilla de verdad cuando se comparte.')
+st.write('Arthur Morgan, protagonista de Red Dead Redemption 2, es un forajido miembro de la banda de Dutch van der Linde que vive en el ocaso del Viejo Oeste, atrapado entre su lealtad al grupo y sus dudas sobre la vida criminal. A lo largo de la historia, enfrenta traiciones, persecuciones y un país que cambia con la llegada de la ley y el progreso. Cuando enferma de tuberculosis, Arthur comienza a reflexionar sobre sus decisiones y busca redimirse ayudando a quienes lo rodean, especialmente a John Marston y su familia, sabiendo que su tiempo se agota. Su historia es la de un hombre marcado por la violencia, que en sus últimos días encuentra humanidad en el sacrificio y la redención.')
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
