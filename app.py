@@ -20,9 +20,7 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write('Un conejo elegante con abrigo y un candil rojo iluminaba los caminos para que los viajeros no se perdieran; 
-un día un zorro le aconsejó guardarlo solo para él, pero al hacerlo un niño quedó atrapado en el bosque; 
-entonces comprendió que la luz, como la bondad, solo brilla de verdad cuando se comparte.')
+st.write('Un conejo elegante con abrigo y un candil rojo iluminaba los caminos para que los viajeros no se perdieran; un día un zorro le aconsejó guardarlo solo para él, pero al hacerlo un niño quedó atrapado en el bosque; entonces comprendió que la luz, como la bondad, solo brilla de verdad cuando se comparte.')
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
